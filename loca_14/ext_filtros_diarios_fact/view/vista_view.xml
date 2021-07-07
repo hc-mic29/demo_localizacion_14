@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
 
             <xpath expr="//field[@name='edi_state']" position="after">
-                <field name="journal_aux_id" invisible="1" />
+                <field name="journal_aux_id" invisible="0" />
             </xpath>
 
             <!--xpath expr="//field[@name='journal_id']" position="replace">
