@@ -10,11 +10,12 @@
                 <field name="journal_aux_id" invisible="0" />
             </xpath>
 
-            <!--xpath expr="//field[@name='journal_id']" position="replace">
+            <xpath expr="//field[@name='journal_id']" position="replace">
 
                 <field name="journal_id" />
-
-                <field name="journal_id"
+            </xpath>
+            
+                <!--field name="journal_id"
                     invisible="context.get('default_journal_id') and context.get('type', 'entry') != 'entry'"
                     groups="account.group_account_user"
                     domain="[('type', '=?', invoice_filter_type_domain)]"
