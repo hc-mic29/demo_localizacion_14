@@ -9,8 +9,8 @@
         <field name="arch" type="xml">
              <xpath expr="//field[@name='taxes_id']" position="before">
                 <field name="habilita_precio_div" string="Habilitar precios en divisas" />
-                <field name="list_price2" required="True" string="Precio de venta en divisas" attrs="{'invisible': [('habilita_precio_div', '!=',True)]}"/><!-- widget="radio"--> 
                 <field name="moneda_divisa_venta" string="Moneda del precio de venta en divisas" attrs="{'invisible': [('habilita_precio_div', '!=',True)]}"/>
+                <field name="list_price2" required="True" string="Precio de venta en divisas" attrs="{'invisible': [('habilita_precio_div', '!=',True)]}"/><!-- widget="radio"-->                 
                 <field name="list_price_comp" invisible='1'/> 
              </xpath>
             <!--xpath expr="//field[@name='producto_terminado']" position="attributes">
