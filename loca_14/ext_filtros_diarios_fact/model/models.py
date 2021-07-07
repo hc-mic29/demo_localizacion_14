@@ -13,6 +13,8 @@ class AccountMove(models.Model):
 
     journal_aux_id = fields.Many2one('account.journal', string='Diario Aux',compute='_compute_invoice_filter_type_doc')   
 
+    journal_id = fields.Many2one('account.journal', string='Journal', required=True, readonly=True)
+
     @api.depends('type')
     def _compute_invoice_filter_type_doc(self):
 
