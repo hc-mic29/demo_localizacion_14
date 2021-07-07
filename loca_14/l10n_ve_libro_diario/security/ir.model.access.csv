@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+libro_diario_wizard_pdf,libro.diario.wizard.pdf,model_libro_diario_wizard_pdf,base.group_user,1,1,1,1
+wizard_libro_diario,wizard.libro.diario,model_wizard_libro_diario,base.group_user,1,1,1,1

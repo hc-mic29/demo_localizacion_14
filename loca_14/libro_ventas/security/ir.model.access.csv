@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acces_account_wizard_pdf_ventas,account.wizard.pdf.ventas,model_account_wizard_pdf_ventas,base.group_user,1,1,1,1
+acces_account_wizard_libro_ventas,account.wizard.libro.ventas,model_account_wizard_libro_ventas,base.group_user,1,1,1,1
