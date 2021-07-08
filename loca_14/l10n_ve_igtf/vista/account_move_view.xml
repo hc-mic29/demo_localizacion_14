@@ -24,7 +24,7 @@
 			    <group string="Anticipos Disponibles">
 			        <!--field name="payment_ids" widget="one2many"/-->
 			        <!--field name="payment_ids" widget="many2many_tags" /-->
-			        <field name="payment_ids" widget="one2many_list" domain="[('partner_id.id','=',partner_id),('usado','!=',True),('anticipo','=',True)]" attrs="{'invisible': [('move_type', 'not in', ('in_invoice','out_invoice'))]}"/>
+			        <field name="payment_ids" widget="one2many_list" domain="[('partner_id.id','=',partner_id),('usado','!=',True),('anticipo','=',True),('tipo','=',type)]" attrs="{'invisible': [('move_type', 'not in', ('in_invoice','out_invoice'))]}"/>
                     <!--,('tipo','=',move_type)-->
 			    </group>
 			  </page>
